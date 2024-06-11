@@ -1,0 +1,48 @@
+# /assets/
+### WordPress ###
+# Core
+#
+# Note: if you want to stage/commit WP core files
+# you can delete this whole section/until Configuration.
+#/wp-admin/
+/wp-root/wp-content/index.php
+/wp-root/wp-content/languages
+/wp-root/wp-content/plugins/index.php
+/wp-root/wp-content/themes/index.php
+#/wp-includes/
+/wp-root/index.php
+/wp-root/license.txt
+/wp-root/readme.html
+/wp-root/wp-*.php
+/wp-root/xmlrpc.php
+
+# Configuration
+/wp-root/wp-config.php
+
+# Example themes
+/wp-root/wp-content/themes/twenty*/
+
+# Example plugin
+/wp-root/wp-content/plugins
+
+# Uploads
+/wp-root/wp-content/uploads/
+
+# Log files
+*.log
+
+# htaccess
+/wp-root/.htaccess
+
+# All plugins
+# Note: If you wish to whitelist plugins,
+# uncomment the next line
+#/wp-root/wp-content/plugins
+
+# All themes
+# Note: If you wish to whitelist themes,
+# uncomment the next line
+#/wp-root/wp-content/themes
+
+
+# End of https://www.toptal.com/developers/gitignore/api/wordpress
