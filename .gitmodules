@@ -1,0 +1,3 @@
+[submodule "wp-root/wp-content/themes/fundamentum"]
+	path = wp-root/wp-content/themes/fundamentum
+	url = https://github.com/annajennings/fundamentum.git
